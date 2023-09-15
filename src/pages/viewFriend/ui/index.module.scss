@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  display: block;
+}
+
+.viewContainer {
+  display: flex;
+  gap: 10px;
+
+  span:not(:last-child) {
+    padding-right: 10px;
+    border-right: 2px solid white;
+  }
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}

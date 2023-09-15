@@ -1,0 +1,1 @@
+export { ViewFriend } from "./ui";

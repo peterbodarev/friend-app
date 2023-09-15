@@ -38,5 +38,4 @@
       "path": "./tsconfig.node.json"
     }
   ],
-  "extends": "./tsconfig.paths.json"
 }

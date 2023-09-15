@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 5px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}

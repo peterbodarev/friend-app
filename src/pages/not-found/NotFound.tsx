@@ -1,6 +1,6 @@
 import { FC, ReactElement } from "react";
 
-import { NOT_FOUND_TEXT, PAGE_NAMES } from "@/shared/config";
+import { NOT_FOUND_TEXT } from "@/shared/config";
 
 const NotFound: FC = (): ReactElement => (
   <div className="main not-found">

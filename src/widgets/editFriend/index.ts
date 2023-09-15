@@ -1,0 +1,1 @@
+export { EditFriend } from "./ui";

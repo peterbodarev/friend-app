@@ -1,0 +1,27 @@
+@mixin active_link {
+  border-bottom: 3px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.navigation {
+  padding-left: 20px;
+  display: flex;
+}
+
+.link {
+  display: flex;
+  height: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  list-style-type: none;
+  padding: 10px;
+
+  &:hover {
+    @include active_link;
+  }
+  &.active {
+    @include active_link;
+  }
+}
