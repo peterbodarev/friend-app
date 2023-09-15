@@ -13,9 +13,12 @@ const resolvedAliases = Object.fromEntries(
   ])
 );
 
+const baseUrl = "/friend-app/";
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: baseUrl,
   resolve: {
     alias: {
       ...resolvedAliases,
